@@ -39,6 +39,9 @@
     },
     "runtimeVersion": {
       "policy": "nativeVersion"
+    },
+    "updates": {
+      "checkAutomatically": "ON_ERROR_RECOVERY"
     }
   }
 }
