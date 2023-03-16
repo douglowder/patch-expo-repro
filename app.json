@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "patch-expo-repro",
+    "slug": "patch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "patch-expo-repro",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [],
+    "updates": {
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "testing",
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "remote-notification"
+        ]
+      },
+      "buildNumber": "1",
+      "bundleIdentifier": "ai.raheem.patch.repro",
+      "config": {}
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "ai.raheem.patch.repro",
+      "permissions": [],
+      "config": {}
+    },
+    "extra": {
+    },
+    "runtimeVersion": {
+      "policy": "nativeVersion"
+    }
+  }
+}
