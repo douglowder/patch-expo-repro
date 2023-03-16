@@ -1,6 +1,6 @@
 {
     "cli": {
-      "version": "^3.5.0"
+      "version": ">= 3.8.0"
     },
     "build": {
       "patch-expo-repro": {
@@ -9,7 +9,9 @@
         "env": {
           "YARN_ENABLE_IMMUTABLE_INSTALLS": "false"
         },
-        "expoCli": "6.2.1"
+        "ios": {
+          "simulator": true
+        }
       }
     }
 }
